@@ -1,0 +1,20 @@
+spring:
+  redis:
+    host: localhost
+    username: root
+    password:
+    port: 6379
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/base-admin?Unicode=true&&allowPublicKeyRetrieval=true&characterEncoding=UTF-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
+    username: root
+    password: root1234
+server:
+  port: 8080
+  servlet:
+    context-path: /manage
+ip:
+  local-parsing: true
+
+
+
